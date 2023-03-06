@@ -16,7 +16,7 @@
   "devDependencies": {
     "@ak-design-system/ts-config": "*",
     "@ak-design-system/tokens": "*",
-    "@ak-design-system/eslint-config/react": "*",
+    "@ak-design-system/eslint-config": "*",
     "tsup": "^6.6.3",
     "typescript": "^4.9.5"
   }
