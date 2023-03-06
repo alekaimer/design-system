@@ -1,0 +1,3 @@
+{
+  "extends": ["@ak-design-system/eslint-config"]
+}
