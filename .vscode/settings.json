@@ -2,5 +2,12 @@
   "prettier.singleQuote": true,
   "prettier.tabWidth": 2,
   "prettier.useTabs": false,
-  "prettier.semi": false,
+  "prettier.semi": true,
+  "prettier.endOfLine": "auto",
+  "prettier.printWidth": 80,
+  "prettier.trailingComma": "all",
+  "prettier.arrowParens": "aways",
+  "editor.formatOnSave": true
+  // "files.autoSave": "afterDelay",
+  // "files.autoSaveDelay": 1000
 }
