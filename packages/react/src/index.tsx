@@ -1,14 +1,7 @@
-import { styled } from './styles'
+import { Heading } from './Heading'
+import { Button, ButtonProps } from './Button'
+import { Text } from './Text'
 
-const Heading = styled('h1', {
-  color: '$red',
-  fontSize: '$5',
-  fontWeight: '$bold',
-  lineHeight: 1.1,
-  margin: 0,
-  padding: 0,
-})
+export { Heading, Button, Text }
 
-export function App() {
-  return <Heading>Hello World</Heading>
-}
+export type { ButtonProps }
