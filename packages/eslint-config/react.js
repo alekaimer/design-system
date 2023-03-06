@@ -30,7 +30,7 @@ module.exports = {
       'singleQuote': true,
       'trailingComma': 'all',
       'arrowParens': 'always',
-      'semi': true,
+      'semi': false,
       'endOfLine': 'auto',
       'useTabs': false,
     }],
