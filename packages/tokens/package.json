@@ -7,12 +7,14 @@
   "types": "./dist/index.d.ts",
   "scripts": {
     "build": "tsup src/index.ts --format cjs,esm --dts",
-    "dev": "tsup src/index.ts --format cjs,esm --dts --watch"
+    "dev": "tsup src/index.ts --format cjs,esm --dts --watch",
+    "lint": "eslint src/**/*.ts* --fix"
   },
   "author": "Ale Kaimer",
   "license": "MIT",
   "devDependencies": {
     "@ak-design-system/ts-config": "*",
+    "@ak-design-system/eslint-config": "*",
     "tsup": "^6.6.3",
     "typescript": "^4.9.5"
   }
