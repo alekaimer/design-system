@@ -6,17 +6,20 @@
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
   "scripts": {
-    "build": "tsup src/index.ts --format cjs,esm --dts",
-    "dev": "tsup src/index.ts --format cjs,esm --dts --watch",
+    "build": "tsup src/index.tsx --format cjs,esm --dts --external react,react-dom",
+    "dev": "tsup src/index.tsx --format cjs,esm --dts --external react,react-dom --watch",
     "lint": "eslint src/**/*.ts* --fix"
   },
   "keywords": [],
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "@ak-design-system/ts-config": "*",
-    "@ak-design-system/tokens": "*",
     "@ak-design-system/eslint-config": "*",
+    "@ak-design-system/tokens": "*",
+    "@ak-design-system/ts-config": "*",
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "react": "^18.2.0",
     "tsup": "^6.6.3",
     "typescript": "^4.9.5"
   }
