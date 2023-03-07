@@ -2,7 +2,7 @@ import { Meta, StoryObj } from '@storybook/react'
 import { Heading } from '@ak-design-system/react'
 
 export default {
-  title: 'Basics/Heading',
+  title: 'Text/Heading',
   component: Heading,
 } as Meta
 

@@ -2,7 +2,7 @@ import { Meta, StoryObj } from '@storybook/react'
 import { Text } from '@ak-design-system/react'
 
 export default {
-  title: 'Basics/Text',
+  title: 'Text/Text',
   component: Text,
 } as Meta
 
