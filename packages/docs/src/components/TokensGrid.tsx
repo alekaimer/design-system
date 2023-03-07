@@ -3,13 +3,13 @@ import '../styles/tokens-grid.css'
 interface TokensGridProps {
   tokens: Record<string, string>
   hasRemValue?: boolean
-  preview?: boolean
+  previewWidth?: boolean
 }
 
 export default function TokensGrid({
   tokens,
   hasRemValue = false,
-  preview = false,
+  previewWidth = false,
 }: TokensGridProps) {
   return (
     <table className="tokens-grid">
@@ -18,7 +18,7 @@ export default function TokensGrid({
           <th>Token</th>
           <th>Value</th>
           {hasRemValue && <th>Pixels</th>}
-          {preview && <th>Preview</th>}
+          {previewWidth && <th>Preview</th>}
         </tr>
       </thead>
       <tbody>
@@ -27,7 +27,7 @@ export default function TokensGrid({
             <td>{key}</td>
             <td>{value}</td>
             {hasRemValue && <td>{Number(value.replace('rem', '')) * 16}px</td>}
-            {preview && (
+            {previewWidth && (
               <td>
                 <span
                   className="preview-bar"
