@@ -25,6 +25,8 @@
     "vite": "^4.1.4"
   },
   "dependencies": {
+    "@ak-design-system/eslint-config": "*",
+    "@ak-design-system/ts-config": "*",
     "@ak-design-system/react": "*",
     "@ak-design-system/tokens": "*",
     "polished": "^4.2.2",

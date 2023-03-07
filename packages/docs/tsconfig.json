@@ -1,0 +1,4 @@
+{
+  "extends": "@ak-design-system/ts-config/react.json",
+  "include": ["src"]
+}
