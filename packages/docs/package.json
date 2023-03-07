@@ -27,7 +27,7 @@
   "dependencies": {
     "@ak-design-system/react": "*",
     "@ak-design-system/tokens": "*",
-    "@ak-design-system/eslint-config": "*",
+    "polished": "^4.2.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   }
