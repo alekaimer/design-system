@@ -4,3 +4,7 @@
 # dependencies
 node_modules
 dist
+
+# Turborepo
+.turbo
+# **/turbo-build*.*
