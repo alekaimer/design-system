@@ -9,6 +9,7 @@
     "lint": "eslint src/**/*.ts* --fix",
     "deploy-storybook": "storybook-to-ghpages"
   },
+  "private": true,
   "keywords": [],
   "author": "",
   "license": "MIT",
