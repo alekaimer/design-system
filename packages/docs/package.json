@@ -1,6 +1,6 @@
 {
   "name": "@ak-design-system/docs",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -9,6 +9,7 @@
     "lint": "eslint src/**/*.ts* --fix",
     "deploy-storybook": "storybook-to-ghpages"
   },
+  "private": true,
   "keywords": [],
   "author": "",
   "license": "MIT",
@@ -20,6 +21,7 @@
     "@storybook/addon-links": "^6.5.16",
     "@storybook/builder-vite": "0.2.3",
     "@storybook/react": "^6.5.16",
+    "@storybook/storybook-deployer": "^2.8.16",
     "@storybook/testing-library": "^0.0.13",
     "@vitejs/plugin-react": "^3.1.0",
     "babel-loader": "^8.3.0",
