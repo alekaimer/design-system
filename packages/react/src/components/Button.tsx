@@ -1,7 +1,7 @@
 import { ComponentProps } from 'react'
-import { styled } from './styles'
+import { styled } from '../styles'
 
-export const Button = styled('button', {
+const ButtonStyled = styled('button', {
   backgroundColor: '$gray100',
   color: '$gray900',
   fontFamily: '$default',
@@ -34,4 +34,8 @@ export const Button = styled('button', {
   },
 })
 
-export type ButtonProps = ComponentProps<typeof Button>
+export type ButtonProps = ComponentProps<typeof ButtonStyled>
+
+export function Button(props: ButtonProps) {
+  return <ButtonStyled {...props} />
+}
