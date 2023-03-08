@@ -12,6 +12,8 @@ export const colors = {
   gray800: '#202024',
   gray900: '#121214',
 
+  primary100: '#E6FFFA',
+  primary200: '#00D9A6',
   primary300: '#00B37E',
   primary500: '#00875F',
   primary700: '#015F43',

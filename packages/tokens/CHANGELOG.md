@@ -1,5 +1,11 @@
 # @ak-design-system/tokens
 
+## 1.1.0
+
+### Minor Changes
+
+- Add new variable color
+
 ## 1.0.1
 
 ### Patch Changes
