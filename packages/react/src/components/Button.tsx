@@ -29,6 +29,25 @@ const ButtonStyled = styled('button', {
     },
   },
 
+  '&:hover': {
+    backgroundColor: '$gray200',
+  },
+
+  '&:focus': {
+    outline: 'none',
+    boxShadow: '0 0 0 2px $colors$gray300',
+  },
+
+  '&:active': {
+    backgroundColor: '$gray300',
+  },
+
+  '&:disabled': {
+    backgroundColor: '$gray100',
+    color: '$gray500',
+    cursor: 'not-allowed',
+  },
+
   defaultVariants: {
     size: 'medium',
   },
