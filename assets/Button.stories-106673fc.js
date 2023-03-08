@@ -1,0 +1,2 @@
+import{a as t}from"./index-732a0ef0.js";import"./index-365f4fb2.js";import"./iframe-4dcd4c04.js";import"./jsx-runtime-5fdbd851.js";const a={title:"Form/Button",component:t,args:{children:"Button"},argTypes:{size:{control:{type:"radio",options:["small","medium","large"]}}}},m={},i={args:{size:"small"}},n={args:{size:"large"}},l=["Medium","Small","Large"];export{n as Large,m as Medium,i as Small,l as __namedExportsOrder,a as default};
+//# sourceMappingURL=Button.stories-106673fc.js.map
