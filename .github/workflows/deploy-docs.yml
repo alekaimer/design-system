@@ -20,11 +20,11 @@ jobs:
           node-version: 16
 
       - run: npm ci
+
       - run: npm run build
-      
+
       - name: Deploy Storybook
         working-directory: ./packages/docs
-        run: npm run deploy-storybook -- --ci --existing-output-dir=storybook-static
+        run: npm run deploy-storybook -- --ci --existing-output-dir=storybook-static --source-branch=release
         env:
           GH_TOKEN: ${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}
-          
