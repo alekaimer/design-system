@@ -5,8 +5,7 @@
   ],
   "scripts": {
     "dev": "turbo run dev --parallel",
-    "build": "turbo run build",
-    "deploy-storybook": "storybook-to-ghpages"
+    "build": "turbo run build"
   },
   "license": "MIT",
   "devDependencies": {
