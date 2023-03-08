@@ -9,7 +9,6 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "@storybook/storybook-deployer": "^2.8.16",
     "turbo": "^1.8.3"
   }
 }
